@@ -1,0 +1,17 @@
+.details {
+  border: 2px solid black;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.det {
+  display: flex;
+  justify-content: center;
+}
+.details:hover {
+  background-color: chocolate;
+  color: #ffffff;
+}
