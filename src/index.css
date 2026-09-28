@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 40%;
+
+  border-radius: 5px;
+}
+input {
+  padding: 10px;
+  width: 300px;
+}
+#message {
+  width: 330px;
+  height: 100px;
+  resize: none;
+}
+#subject {
+  width: 330px;
+  height: 100px;
+  resize: none;
+}
+.conta {
+  background-color: red;
+
+  padding: 50px;
+  /* height:1000px; */
+}
+button {
+  background-color: orange;
+  border: none;
+  width: 200px;
+  padding: 20px;
+}
